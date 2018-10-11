@@ -1,7 +1,8 @@
+# Imports
 from app import db
 
-
 class Flaskr(db.Model):
+    '''The database modeler.'''
 
     __tablename__ = "flaskr"
 
